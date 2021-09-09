@@ -1,4 +1,4 @@
-float weight = 100;
+float weight = 97;
 float height = 165;
 float bmi = (100*100*weight)/(height*height);
 
