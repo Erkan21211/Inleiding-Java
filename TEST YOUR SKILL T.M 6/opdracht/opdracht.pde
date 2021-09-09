@@ -1,6 +1,7 @@
 size(900,500);
 background(30,40,255);
 
+//float leeftijd = 
 float weight = 97;
 float lengte = 163;
 float bmi = (100*100*weight)/(lengte*lengte);
