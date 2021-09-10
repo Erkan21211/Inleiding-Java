@@ -1,11 +1,3 @@
-int teller = 0;
-boolean doorgaan = true;
-
-while (doorgaan) {
-  if (teller > 20) {
-    doorgaan = false;
-  } else {
-    teller++;
-    print(doorgaan);
-  }
+for(int i = 0; i < 30; i+=3){
+  println(i);
 }

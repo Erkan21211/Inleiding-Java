@@ -4,7 +4,7 @@ background(255,255,255);
 int C = 100;
 int CS = 10;
 
-for(int i = 0; i < 5; i++){
+for(int i = 0; i < 50; i++){
   ellipse(100, 100, C,C);
   C-=10;
   for(int j = 0; j < 10; j++){
