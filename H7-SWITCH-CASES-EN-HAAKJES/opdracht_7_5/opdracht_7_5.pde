@@ -1,4 +1,7 @@
+// voer hier beneden het cijfer
+////////////////////
 int cijfer = 5; 
+///////////////////
 
 if(cijfer <= 100){
   println("Kies tussen 1 - 10 cijfer");
