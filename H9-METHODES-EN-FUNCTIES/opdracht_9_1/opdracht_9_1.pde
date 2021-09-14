@@ -15,7 +15,10 @@ void draw(){
 }
 
 void MyMethode(){
-  int cijfer1 = 400;
-  int cijfer2 = 2;
-  print(cijfer1 / cijfer2);
+  int cijfer1 = 7;
+  int cijfer2 = 5;
+  int total;
+  
+  total = cijfer1 + cijfer2;
+  print(total / 2);
 }

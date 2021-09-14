@@ -1,13 +1,19 @@
-boolean Cumlaude = true;
-boolean diploma = true;
+float cijfer = 7;
+boolean Cumlaude = false;
+boolean diploma = false;
 
-if(diploma == true && Cumlaude == true){
-    if(diploma == true){
-      diploma = true;
-      if(diploma == true){
-        println("gefeliciteerd");
-      }
+if(cijfer >= 5.5){
+  diploma = true;
     }
-    if(Cumlaude == true)
-      println("gefeliciteerd");
+    
+    if(diploma){
+      println("Diploma gefeliciteerd");
+    }
+    
+    if(cijfer >= 5.5){
+      Cumlaude = true;
+    }
+    
+    if(Cumlaude){
+      println("Cumlaude gefeliciteerd");
     }

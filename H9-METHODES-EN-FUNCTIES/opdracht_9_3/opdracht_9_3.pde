@@ -1,19 +1,21 @@
-int mycijfer = 10;
 boolean test;
 
 void setup() {
   test = mijnM(5,5);
-  print(test);
 }
 
 void draw() {
 }
 
 boolean mijnM(int een, int twee){
+  een = 7;
+  twee = 10;
   int total = een + twee;
-  if(total % 2 == 30){
+  println(total / 2);
+  if(total / 2 == 8){
   return true;
   } else{
     return false;
+    
   }
 }
