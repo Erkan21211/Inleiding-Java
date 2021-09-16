@@ -1,8 +1,6 @@
 float x;
 float y;
 
-
- 
 void setup(){
   size (200, 200);
   x = width/2;
@@ -18,13 +16,13 @@ void draw(){
 void keyPressed() {
   if ((keyPressed == true) && (key == CODED)) {
     if (keyCode == UP){
-     y --;
+     y -= 10;
     } else if (keyCode == DOWN) {
-      y ++;
+      y += 10;
     } else if (keyCode == LEFT ){
-      x --;
+      x -=10;
     } else if (keyCode == RIGHT) {
-      x ++;
+      x +=10;
     }  
   } 
 }
