@@ -1,6 +1,6 @@
 // voer hier beneden het cijfer
 ////////////////////
-int cijfer = 5; 
+int cijfer = 10; 
 ///////////////////
 
 if(cijfer <= 100){
