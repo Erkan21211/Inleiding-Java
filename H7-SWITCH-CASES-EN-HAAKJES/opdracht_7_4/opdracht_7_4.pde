@@ -1,19 +1,19 @@
-String week = "maandag";
+String week = "1";
 
 switch(week){
-  case "maandag":
+  case "1":
     println("maandag");
-  case "dinsdag":
+  case "2":
     println("dinsdag");
-  case "woensdag":
+  case "3":
     println("woensdag");
-  case "donderdag":
+  case "4":
     println("donderdag");
-  case "vrijdag":
+  case "5":
     println("vrijdag");
-  case "zaterdag":
+  case "6":
     println("zaterdag");
-  case "zondag":
+  case "7":
     println("zondag");
     break;
 }

@@ -1,12 +1,13 @@
 Boolean diploma = true;
 Boolean vrijstelling = true;
-boolean cijfer1 = true;
-boolean cijfer2 = true;
+int cijfer = 7;
 
-if(diploma == true || vrijstelling == true){
-   if(cijfer1 == true && cijfer2 == true){
-      println("gefeliciteerd") ;
-   }else{
+if (diploma == true || vrijstelling == true) {
+  if (cijfer >= 5.5) {
+    println("congratz");
+  }
+  if(cijfer <= 4){
     println("onvoldoende");
-   }
+  }
+  
 }
