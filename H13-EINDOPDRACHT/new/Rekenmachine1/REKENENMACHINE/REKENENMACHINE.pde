@@ -10,7 +10,7 @@ color knop_kleur = color(0, 0, 255);
 // knop text kleur
 color knop_text_kleur = color(255, 153, 51);
 
-char pKey = ' ';
+
 float waarde_1, waarde_2, positie = 0;
 
 String operatie;
@@ -126,9 +126,9 @@ void input() {
       }
       
       if (positie == 0) {
-        waarde_1 = (waarde_1*10)+0;
+        waarde_1 = (waarde_1*30)+0;
       } else if (positie == 2) {
-        waarde_2 = (waarde_2*10)+0;
+        waarde_2 = (waarde_2*30)+0;
       } else if (positie ==4) { 
         waarde_1 = 0;
         positie = 0;
